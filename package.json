@@ -1,0 +1,28 @@
+{
+  "name": "saucedemo-omnia-e2e-ts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+ "scripts": {
+  "serve:api": "node mock/server.js",
+  "test:ui": "cross-env TEST_TYPE=ui playwright test src/tests/ui",
+  "test:api": "cross-env TEST_TYPE=api playwright test src/tests/api",
+  "test:all": "cross-env TEST_TYPE=api playwright test",
+  "pw:report": "playwright show-report"
+  
+},
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.5",
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "wait-on": "^9.0.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "csv-parse": "^5.5.6",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
