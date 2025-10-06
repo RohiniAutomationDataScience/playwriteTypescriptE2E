@@ -1,4 +1,4 @@
-# Deloitte Omnia-style E2E Project (SauceDemo) — Playwright + TypeScript
+# E2E Project (SauceDemo) — Playwright + TypeScript
 
 **Stack**: Playwright Test, TypeScript, POM, CSV data, Faker, API tests, GitHub Actions CI, HTML report with `test.step()`.
 
