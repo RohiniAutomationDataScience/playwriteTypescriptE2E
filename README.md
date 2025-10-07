@@ -127,8 +127,8 @@ All specs use test.step() so the HTML report reads like a story, not raw locator
 
 ## Quick start (short steps)
 Unzip & open
-unzip saucedemo-omnia-e2e-ts.zip
-cd saucedemo-omnia-e2e-ts
+unzip playwriteTypescriptE2E-main.zip (~~saucedemo-omnia-e2e-ts.zip~~)
+cd playwriteTypescriptE2E-main ~~saucedemo-omnia-e2e-ts.zip~~
 Install (Playwright + deps)
 npm install
 npx playwright install --with-deps
